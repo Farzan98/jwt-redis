@@ -1,0 +1,20 @@
+{
+  "name": "jwt-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cookie": "^8.0.0",
+    "body-parser": "^1.20.0",
+    "fastify": "^4.5.2",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.19",
+    "redis": "^4.2.0"
+  }
+}
